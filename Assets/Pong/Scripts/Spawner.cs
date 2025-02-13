@@ -20,7 +20,6 @@ public class Spawner : MonoBehaviour
 
         Vector3 spawnPosition = new Vector3(spawnPointX, spawnPointY, spawnPointZ);
 
-        //Double this to add new power up, (Random number to pick)
         int rand = Random.Range(1, 3);
         if (rand == 1)
         {
